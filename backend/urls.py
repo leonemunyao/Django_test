@@ -20,5 +20,5 @@ from backend import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/feedbacks', views.FeedbackViewSet, name='FeedbackViewSet'),
+    path('api/feedbacks', views.FeedbackViewSet),
 ]
